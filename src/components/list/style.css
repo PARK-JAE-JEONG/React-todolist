@@ -1,0 +1,24 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0px 25px 0px 25px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  width: 100%;
+  
+  gap: 20px;
+}
+
+.list-title {
+  align-self: start;
+}
